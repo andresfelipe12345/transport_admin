@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">61%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>589</td>
+                <td>231</td>
+                <td>0</td>
+                <td class="right" data-ratio="358 589">61%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="accounts___init___py.html">accounts/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="accounts_admin_py.html">accounts/admin.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="accounts_migrations___init___py.html">accounts/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="accounts_models_py.html">accounts/models.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses___init___py.html">buses/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_admin_py.html">buses/admin.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_migrations_0001_initial_py.html">buses/migrations/0001_initial.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_migrations_0002_bus_user_py.html">buses/migrations/0002_bus_user.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_migrations_0003_remove_bus_user_py.html">buses/migrations/0003_remove_bus_user.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_migrations___init___py.html">buses/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_models_py.html">buses/models.py</a></td>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 6">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_serializers_py.html">buses/serializers.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="buses_views_py.html">buses/views.py</a></td>
+                <td>43</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="43 43">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="drivers___init___py.html">drivers/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="drivers_admin_py.html">drivers/admin.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="drivers_migrations_0001_initial_py.html">drivers/migrations/0001_initial.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="drivers_migrations___init___py.html">drivers/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="drivers_models_py.html">drivers/models.py</a></td>
+                <td>7</td>
+                <td>7</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 7">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="drivers_serializers_py.html">drivers/serializers.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="drivers_views_py.html">drivers/views.py</a></td>
+                <td>52</td>
+                <td>36</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 52">31%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="places___init___py.html">places/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="places_admin_py.html">places/admin.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="places_migrations_0001_initial_py.html">places/migrations/0001_initial.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="places_migrations___init___py.html">places/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="places_models_py.html">places/models.py</a></td>
+                <td>5</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 5">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="places_serializers_py.html">places/serializers.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="places_views_py.html">places/views.py</a></td>
+                <td>42</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="42 42">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes___init___py.html">routes/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_admin_py.html">routes/admin.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations_0001_initial_py.html">routes/migrations/0001_initial.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations_0002_auto_20210115_1339_py.html">routes/migrations/0002_auto_20210115_1339.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations_0003_auto_20210115_1345_py.html">routes/migrations/0003_auto_20210115_1345.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations_0004_auto_20210115_1348_py.html">routes/migrations/0004_auto_20210115_1348.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations_0005_auto_20210115_1352_py.html">routes/migrations/0005_auto_20210115_1352.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations_0006_auto_20210115_1500_py.html">routes/migrations/0006_auto_20210115_1500.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations_0007_auto_20210115_1711_py.html">routes/migrations/0007_auto_20210115_1711.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_migrations___init___py.html">routes/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_models_py.html">routes/models.py</a></td>
+                <td>9</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 9">11%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_serializers_py.html">routes/serializers.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="routes_views_py.html">routes/views.py</a></td>
+                <td>102</td>
+                <td>31</td>
+                <td>0</td>
+                <td class="right" data-ratio="71 102">70%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules___init___py.html">schedules/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_admin_py.html">schedules/admin.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_migrations_0001_initial_py.html">schedules/migrations/0001_initial.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_migrations_0002_auto_20210115_1711_py.html">schedules/migrations/0002_auto_20210115_1711.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_migrations_0003_auto_20210115_1725_py.html">schedules/migrations/0003_auto_20210115_1725.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_migrations_0004_auto_20210116_1140_py.html">schedules/migrations/0004_auto_20210116_1140.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_migrations___init___py.html">schedules/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_models_py.html">schedules/models.py</a></td>
+                <td>12</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 12">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_serializers_py.html">schedules/serializers.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="schedules_views_py.html">schedules/views.py</a></td>
+                <td>67</td>
+                <td>45</td>
+                <td>0</td>
+                <td class="right" data-ratio="22 67">33%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats___init___py.html">seats/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_admin_py.html">seats/admin.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_migrations_0001_initial_py.html">seats/migrations/0001_initial.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_migrations_0002_seat_passenger_email_py.html">seats/migrations/0002_seat_passenger_email.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_migrations_0003_auto_20210116_1154_py.html">seats/migrations/0003_auto_20210116_1154.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_migrations_0004_auto_20210116_1209_py.html">seats/migrations/0004_auto_20210116_1209.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_migrations_0005_auto_20210116_1504_py.html">seats/migrations/0005_auto_20210116_1504.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_migrations___init___py.html">seats/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_models_py.html">seats/models.py</a></td>
+                <td>27</td>
+                <td>27</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 27">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_serializers_py.html">seats/serializers.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="seats_views_py.html">seats/views.py</a></td>
+                <td>51</td>
+                <td>35</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 51">31%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.3.1</a>,
+            created at 2021-01-21 09:39 -0300
+        </p>
+    </div>
+</div>
+</body>
+</html>
